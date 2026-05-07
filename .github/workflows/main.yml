@@ -9,7 +9,7 @@ on: # on 언제 action을 동작시킬지
 
 jobs:
   ci:
-    runs-on: ubuntu-latest  #깃액션이 동작하는 환경
+    runs-on: ubuntu-latest  #깃액션이 동작하는 환경.
     steps:
       - uses: actions/checkout@v4
         with:
